@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Четвёртая страничка</title>
+</head>
+<body>
+
+	<p>СЛУДУЮЩАЯ ЗАПИСЬ</p>
+	<p><strong>Командная строка в Windows</strong></p>
+
+	<hr>
+	<br>
+
+	<p><strong>ДОБАВИТЬ В КОММЕНТАРИЙ</strong></p>
+
+	<p>Ваш e-mail не будет опубликован. Обязательные поля помечены *</p>
+
+ 	<form action="formdata.php" method="POST" name="form1">
+		<label for="comment">Комментарий</label>
+		<p><textarea name="comment" id="comment" cols="80" rows="13"></textarea></p>
+
+		<label for="name">Имя *</label>
+		<p><input type="text" name="name" id="name" size="80" maxlength="80"></p>
+
+		<label for="e-mail">E-mail *</label>
+		<p><input type="email" name="e-mail" id="e-mail" size="80" maxlength="80"></p>
+
+		<p><input type="reset" name="reset_button" value="Очистить"> <input type="submit" name="submit_button" value="Отправить"></p>
+	</form>
+
+	<p><a href="HomeWork_1-3.html">Перейти на предыдущую страницу </a></p>
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
